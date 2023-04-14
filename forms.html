@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="liaqat.php">
+        <fieldset>
+            <legend>Your Details</legend>
+            <label>Name
+                <input type="text" name="Username">
+            </label><br>
+            <label >Email <input type="email" name="email"></label>
+        </fieldset><br>
+        <fieldset>
+            <legend>Your Review:</legend>
+            <p>
+                <label for="hear-about">How did you hear about us</label>
+                <select name="ways" id="hear-about" >
+                    <option value="Google">google</option>
+                    <option value="facebook">facebook</option>
+                </select>
+            </p>
+        
+            <p>would you visit us again</p>
+            <label > 
+
+                <input type="radio" name="visit" value="Yes">Yes
+            </label>
+            <input type="radio" name="visit" value="no">No
+            <input type="radio" name="visit" value="maybe" checked>Maybe <br>
+            <p><label for="comment">comment</label><br>
+                <textarea name="comment" id="comment" cols="30" rows="3"></textarea>
+            </p>
+             <p>
+                <label >
+
+                    <input type="checkbox" value="yes" checked>Do you sign up
+                </label>
+
+            </p>
+            <input type="submit" name="submit" value="Submit NOW" >
+        </fieldset>
+    </form>
+</body>
+
+</html>
